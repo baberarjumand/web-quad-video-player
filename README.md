@@ -1,12 +1,12 @@
 # QuadVideoPlayer
 
-A web app that can play 4 video files simaltaineously in the browser. This app is in answer to the frustration of the Awesome Video Player constantly crashing on one of my PCs.<br><br>
+A web app that can play 4 video files simaltaineously in the browser. This app was developed in answer to personal frustration with the Awesome Video Player constantly crashing on one of my PCs.<br>
 
-In it's current implementation, four videos are on screen. If the videos are 1920x1080 (or similar aspect ratio), they cover the whole screen on 1920x1080 resolution when in fullscreen mode.<br><br>
+In it's current implementation, four videos are on screen. If the videos are 1920x1080 (or similar aspect ratio), they cover the whole screen on 1920x1080 resolution when in fullscreen mode.<br>
 
-This app can very well be configured to show 'x' number of screens in any desirable layout that can be achieved with Bootstrap.<br><br>
+This app can very well be configured to show 'x' number of screens in any desirable layout that can be achieved with Bootstrap.<br>
 
-App Demo: [https://quad-video-web-player.web.app/](https://quad-video-web-player.web.app/)<br><br>
+App Demo: [https://quad-video-web-player.web.app/](https://quad-video-web-player.web.app/)<br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
