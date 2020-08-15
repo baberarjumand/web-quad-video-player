@@ -1,0 +1,25 @@
+video {
+  width: 100%;
+}
+
+.btn {
+  color: white;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+}
+
+label {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  z-index: 1;
+}
+
+#vid1File,
+#vid2File,
+#vid3File,
+#vid4File {
+  z-index: -1;
+  position: absolute;
+}
