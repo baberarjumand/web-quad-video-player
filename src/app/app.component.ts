@@ -89,8 +89,4 @@ export class AppComponent implements OnInit {
   // vid1RightClick() {
   //   console.log('Vid 1 Right Click');
   // }
-
-  // vid1DblClick() {
-  //   console.log('Vid 1 Double Click');
-  // }
 }
