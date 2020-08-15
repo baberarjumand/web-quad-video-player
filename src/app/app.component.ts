@@ -1,12 +1,20 @@
-import { Component, ViewChild } from '@angular/core';
+import {
+  Component,
+  ViewChild,
+  Inject,
+  OnInit,
+  HostListener,
+} from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'quad-video-player';
+  documentElemRef;
 
   @ViewChild('vid1Input') vid1Input;
   @ViewChild('vid2Input') vid2Input;
@@ -21,6 +29,21 @@ export class AppComponent {
     'https://firebasestorage.googleapis.com/v0/b/quad-video-web-player.appspot.com/o/90s_flav_-_call_me.mp4?alt=media&token=41c830c3-a616-4185-ada6-e9788a60cf27';
   pixelArtRainGifsLink =
     'https://firebasestorage.googleapis.com/v0/b/quad-video-web-player.appspot.com/o/pixel_art_rain_gifs.mp4?alt=media&token=a5717946-eff0-4843-bdc7-ecefa5d47a9e';
+  chillAudioLoop =
+    'https://firebasestorage.googleapis.com/v0/b/quad-video-web-player.appspot.com/o/vid-chillLoopAudio.mp4?alt=media&token=d2602bd5-0ae5-4417-b5d2-423e9161f029';
+
+  // constructor(@Inject(DOCUMENT) private document: any) {}
+
+  ngOnInit(): void {
+    // this.documentElemRef = document.documentElement;
+  }
+
+  // @HostListener('document:keydown.escape', ['$event']) onKeydownHandler(
+  //   event: KeyboardEvent
+  // ) {
+  //   console.log(event);
+  //   this.documentElemRef.exitFullScreen();
+  // }
 
   vid1InputChange() {
     // console.log($event);
