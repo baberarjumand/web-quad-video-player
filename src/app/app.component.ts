@@ -78,19 +78,19 @@ export class AppComponent implements OnInit {
     vid4Node.src = fileUrl;
   }
 
-  vid1arrowUp() {
-    console.log('Vid 1 Arrow Up');
-  }
+  // vid1arrowUp() {
+  //   console.log('Vid 1 Arrow Up');
+  // }
 
-  vid1arrowDown() {
-    console.log('Vid 1 Arrow Down');
-  }
+  // vid1arrowDown() {
+  //   console.log('Vid 1 Arrow Down');
+  // }
 
-  vid1RightClick() {
-    console.log('Vid 1 Right Click');
-  }
+  // vid1RightClick() {
+  //   console.log('Vid 1 Right Click');
+  // }
 
-  vid1DblClick() {
-    console.log('Vid 1 Double Click');
-  }
+  // vid1DblClick() {
+  //   console.log('Vid 1 Double Click');
+  // }
 }
